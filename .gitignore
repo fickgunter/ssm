@@ -1,0 +1,6 @@
+# 项目排除路径
+/lanqiao/node_modules/
+/ssm-mybatis_1/target/
+/ssm-spring_1/target/
+/ssm-spring_2/target/
+/ssm-springmvc/src/main/webapp/node_modules/

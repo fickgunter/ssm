@@ -1,0 +1,116 @@
+.wrap .tabbox .hd ul {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around
+}
+
+.wrap .tabbox .hd ul li {
+    margin: 0 10px;
+    color: #515151;
+    font-size: 0.29rem;
+    height: .9rem;
+    line-height: .9rem;
+}
+
+.wrap .tabbox .hd ul .on {
+    border-bottom: 2px solid rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+}
+
+.wrap .tabbox .hd ul .on a {
+    display: block;
+}
+
+.wrap .tabbox .bd li {
+    background: #fff;
+    margin-top: 9px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.wrap .tabbox .bd a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.wrap .tabbox .bd li a {
+    color: #555;
+}
+
+.wrap .tabbox .bd .t .con p {
+    font-size: 12px;
+    color: #999;
+}
+
+.wrap .order-no {
+    height: .6rem;
+    line-height: .6rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between
+}
+
+.wrap .order-detail {
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 0;
+}
+
+.wrap .order-detail img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: .2rem;
+}
+
+.wrap .order-detail .order-detail-box {
+    overflow: hidden;
+}
+
+.wrap .order-detail .order-detail-box .order-name {
+    font-size: .3rem;
+    word-wrap: break-word;
+    line-height: 2em;
+    max-height: 2.8em;
+    overflow: hidden;
+    color: #353535;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+.wrap .order-detail .order-detail-box .order-summary {
+    color: #888;
+    line-height: .4rem;
+}
+
+.wrap .order-detail .order-detail-box .order-price-wrap {
+    display: flex;
+}
+
+.wrap .order-item-footer {
+    height: 59px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.wrap .order-item-footer .order-btn {
+    padding: .1rem;
+    background-color: #fff;
+    border: 1px solid #999;
+    outline: 0;
+    cursor: pointer;
+}
+
+.wrap .order-item-footer .cancel-btn {
+    color: #999
+}
+
+.wrap .order-item-footer .complete-btn {
+    color: rgb(51, 51, 51);
+    border-color: rgb(51, 51, 51);
+    margin-left: 8px
+}

@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "720976",
+      "name": "坐标",
+      "font_class": "xiazai18",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "947053",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "1219691",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "2076312",
+      "name": " 我的",
+      "font_class": "wode",
+      "unicode": "e8a0",
+      "unicode_decimal": 59552
+    },
+    {
+      "icon_id": "3267410",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "6268296",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "7316190",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "8099668",
+      "name": "对号",
+      "font_class": "check",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "13474459",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "14163863",
+      "name": "消息",
+      "font_class": "xiaoxi1",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "15546307",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "17808686",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "18272208",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "18437974",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "18522226",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "21644609",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}

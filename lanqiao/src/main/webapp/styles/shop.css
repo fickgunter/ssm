@@ -1,0 +1,262 @@
+/* 商家主页-头部 */
+
+.shop_info {
+    background: url('../images/shop/yhbg.jpg') center;
+    height: 3.8rem;
+    background-size: cover;
+    color: #eee;
+}
+
+.shop_info .logo {
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid #ebebeb;
+    border-radius: 0.02rem;
+    position: relative;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-left: -0.33rem;
+}
+
+.shop_info .logo img {
+    width: 100%;
+}
+
+.shop_info .title {
+    padding-top: 1.2rem;
+}
+
+.shop_info .title h2 {
+    font-size: .4rem;
+    text-align: center;
+    color: #eee;
+    margin-top: 1.2rem;
+}
+
+.shop_info .title .discount {
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.discount .special {
+    width: 0.23rem;
+    height: 0.11rem;
+    padding: 0 0.04rem;
+    background-color: rgb(241, 136, 79);
+    color: #fff;
+    padding-bottom: 0.01rem;
+}
+
+
+/*商品列表*/
+
+.shop_menu {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+.shop_category {
+    background-color: #f8f8f8;
+    overflow-y: auto;
+}
+
+.shop_category li {
+    padding: 0.3rem 0.2rem;
+    text-align: left;
+    font-size: 0.15rem;
+    width: 1.3rem;
+    flex: none;
+}
+
+.shop_category li img {
+    width: 0.15rem;
+}
+
+.shop_category .active {
+    background-color: #fff;
+}
+
+.good_item {
+    display: flex;
+    margin: .1rem .1rem .1rem .2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.good_item img {
+    margin-right: 0.1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.good_item .info {
+    padding: 0 0.1rem 0.15rem 0;
+    width: 4rem;
+}
+
+.good_item .info .name {
+    font-size: 0.3rem;
+    font-weight: 700;
+}
+
+.good_item .info .desc {
+    width: 1.6rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0.05rem 0;
+    color: #9999a6;
+}
+
+.good_item .info .sale {
+    color: #9999a6;
+    margin-bottom: 0.06rem;
+}
+
+.good_item .info a {
+    display: block;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #2d7eed;
+    text-align: center;
+    color: #fff;
+    font-size: 0.18rem;
+    border-radius: 45%;
+}
+
+.good_item .info .price {
+    color: rgb(255, 83, 57);
+    font-size: 0.25rem;
+}
+
+.good_item .info .more {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.05rem;
+}
+
+.good_item .info .more .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.good_item .info .more .action .num {
+    margin: 0 .2rem;
+    font-size: .3rem;
+    width: .3rem;
+    text-align: center;
+}
+
+.menu_list {
+    overflow-y: auto;
+}
+
+.goods {
+    display: flex;
+    position: absolute;
+    top: 180px;
+    bottom: 1rem;
+    width: 100%;
+    background-color: #eee;
+    padding-top: 2px;
+}
+
+.left {
+    flex: 0 0 80px;
+    width: 80px;
+    background: #f3f5f7;
+    overflow: scroll;
+}
+
+.left>ul>li {
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.cur {
+    background-color: #fff;
+}
+
+.right {
+    flex: 1;
+    background-color: #fff;
+    overflow: scroll;
+}
+
+.right li h1 {
+    padding-left: 5%;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    height: 1rem;
+    line-height: 1rem;
+    z-index: 10;
+    font-size: .3rem;
+}
+
+
+/*去结算*/
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.cart_info {
+    display: flex;
+    position: relative;
+    background: rgba(61, 61, 63, .9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 1rem;
+}
+
+.cart_info .icon-gouwuche {
+    color: #fff;
+    font-size: 0.5rem;
+    position: absolute;
+    top: .2rem;
+    left: .1rem;
+}
+
+.cart_info .price {
+    flex: 4;
+    padding-left: 1rem;
+    color: #999;
+}
+
+.cart_info .count {
+    color: #fff;
+    background-color: red;
+    width: .3rem;
+    border-radius: 10px;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    font-size: .3rem;
+    position: absolute;
+    top: -.1rem;
+    right: -.2rem;
+}
+
+.cart_info .account {
+    flex: 2;
+    text-align: center;
+    line-height: 1rem;
+    background: #39b708;
+    color: #fff;
+    font-size: 0.3rem;
+    font-weight: 700;
+    width: 1rem;
+}

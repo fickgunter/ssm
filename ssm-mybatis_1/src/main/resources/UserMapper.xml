@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ns">
+    <select id="getUserByUid" resultType="cn.lanqiao.entity.User" parameterType="int">
+        select  uid,uname,upassword,status from user where uid=#{uid}
+    </select>
+    <select id="getAllUser" resultType="cn.lanqiao.entity.User">
+        select * from user;
+    </select>
+    <insert id="insertUser" parameterType="cn.lanqiao.entity.User">
+        insert into user(uname,upassword,status) values (#{uname},#{upassword},#{status})
+    </insert>
+</mapper>

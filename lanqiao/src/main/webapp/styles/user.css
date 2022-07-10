@@ -1,0 +1,70 @@
+.user {
+    width: 100%;
+    padding-top: .24rem;
+    min-height: .9rem;
+    color: #fff;
+    height: 1.7rem;
+    background: #2d7eed;
+}
+
+.user .userinfo {
+    display: flex;
+}
+
+.user .userinfo .avatar img {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: .2rem;
+}
+
+.user .userinfo .nickname {
+    padding-left: .5rem;
+    position: relative;
+    top: .5rem;
+    font-size: .3rem;
+}
+
+.user .useraccount {
+    display: flex;
+    margin-top: .4rem;
+}
+
+.user .useraccount .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+}
+
+
+/*导航链接*/
+
+section .link_item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+    height: 1rem;
+    position: relative;
+}
+
+section .link_item a {
+    width: 100%;
+    border-top: 1px solid #e8e8e8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+section .link_item:last-child {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.icon-youjiantou {
+    position: absolute;
+    right: .2rem;
+    top: .3rem;
+}

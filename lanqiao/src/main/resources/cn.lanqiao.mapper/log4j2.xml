@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+<!--        输出信息格式-->
+       <PatternLayout charset="UTF-8" pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36}-%msg%n"/>
+        </Console>
+</Appenders>
+<!--    日志对象-->
+<Loggers>
+<!--    Root针对的是整个项目-->
+ <Root level="DEBUG">
+<!--    ref针对控制台输出-->
+<AppenderRef ref="Console"/>
+ </Root>
+</Loggers>
+</Configuration>

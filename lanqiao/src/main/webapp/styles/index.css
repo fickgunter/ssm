@@ -1,0 +1,78 @@
+/* 头部 start */
+
+.header {
+    height: 2rem;
+    background: linear-gradient(356deg, #369ed2, #0085ff);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+}
+
+.header .address {
+    display: flex;
+    align-items: center;
+}
+
+.header .address p {
+    color: #fff;
+    font-size: 0.3rem;
+}
+
+.header .icon-dizhi {
+    color: #fff;
+    font-size: 0.5rem;
+}
+
+.header input {
+    height: 0.6rem;
+    margin-top: 0.2rem;
+    font-size: 0.3rem;
+    text-align: left;
+    border: 0 none;
+    padding-left: .5rem;
+    border-radius: .3rem;
+}
+
+.header .search-words {
+    display: flex;
+    justify-content: space-around;
+    font-size: .25rem;
+}
+
+.header .search-words a {
+    padding-top: 10px;
+    color: #fff;
+}
+
+
+/* 头部 end */
+
+
+/* 分类导航 start */
+
+.menu_category ul {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .2rem;
+}
+
+.menu_category ul li {
+    width: 20%;
+    margin-top: 0.2rem;
+}
+
+.menu_category ul li a {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.25rem;
+}
+
+.menu_category ul li img {
+    width: 0.8rem;
+}
+
+
+/* 分类导航 end */
