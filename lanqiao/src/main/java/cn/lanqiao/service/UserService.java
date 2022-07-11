@@ -23,11 +23,11 @@ public class UserService {
     }
     public Boolean save(String userName,String password,String realname,String phone){
         User user=new User();
-        user.setUserName(userName);
-        user.setPassword(password);
-        user.setRealname(realname);
-        user.setPhone(phone);
-        if (user.getPhone().length()==11){
+        if (phone.length()==11){
+            user.setUserName(userName);
+            user.setPassword(password);
+            user.setRealname(realname);
+            user.setPhone(phone);
             return userMapper.saveUser(user)>0;
         }else {
             return false;

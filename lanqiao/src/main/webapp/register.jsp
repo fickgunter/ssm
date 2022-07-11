@@ -30,7 +30,7 @@
         </div>
         <!-- logo end -->
         <!-- 注册 start-->
-        <form  method="post" action="/lanqiao_war_exploded/api/request/regist">
+        <form  method="post" action="/lanqiao_war_exploded/regist">
         <div class="login_item">
             <span class="login_text">手机号</span>
             <input class="login_input" type="tel" name="phone" maxlength="11" placeholder="输入手机号" />

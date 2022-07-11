@@ -34,7 +34,7 @@
         <ul class="login_show">
 
                  <li class="cur">
-                     <form  method="post" action="/lanqiao_war_exploded/api/request/login">
+                     <form  method="post" action="/lanqiao_war_exploded/login">
                     <div class="login_item" >
                         <span class="login_text">手机号</span>
                         <input class="login_input" type="text" name="phone" maxlength="11"  placeholder="输入手机号" />
@@ -55,7 +55,7 @@
                     </form>
                  </li>
                 <li>
-                    <form class="from-horizontal" method="post" action="/lanqiao_war_exploded/api/request/login">
+                    <form class="from-horizontal" method="post" action="/lanqiao_war_exploded/login">
                     <div class="login_item">
                         <span class="login_text">手机号</span>
                         <input class="login_input" type="text" name="phone" maxlength="11" placeholder="输入手机号" />
